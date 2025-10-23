@@ -8,6 +8,18 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+### Removed
+
+- `big_float` and `big_decimal` on `Config`. There is no replacement.
+
+### Added
+
+- `weak_ref` and `performance` on `Config`.
+
+### Changed
+
+- The QuickJS bytecode format has changed in a breaking way.
+
 ## [4.1.0] - 2025-10-06
 
 ### Changed
